@@ -21,7 +21,7 @@ public class Photo {
     @Column(name="file_size", unique = false, nullable = true)
     private Long fileSize;
 
-    @Column(name="upload_at", unique = false, nullable = true)
+    @Column(name="uploaded_at", unique = false, nullable = true)
     private String uploadedAt;
 
 
